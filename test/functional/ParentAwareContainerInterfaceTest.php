@@ -18,6 +18,13 @@ class ParentAwareContainerInterfaceTest extends TestCase
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\Di\\ParentAwareContainerInterface';
 
     /**
+     * Name of the test subject's ancestor.
+     *
+     * @since [*next-version*]
+     */
+    const TEST_SUBJECT_ANCESTOR = 'Dhii\\Di\\ContainerInterface';
+
+    /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
@@ -28,6 +35,8 @@ class ParentAwareContainerInterfaceTest extends TestCase
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getParentContainer()
+            ->get()
+            ->has()
             ->new();
 
         return $mock;
@@ -43,5 +52,6 @@ class ParentAwareContainerInterfaceTest extends TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
+        $this->assertInstanceOf(static::TEST_SUBJECT_ANCESTOR, $subject);
     }
 }

@@ -9,7 +9,7 @@ namespace Dhii\Di;
  *
  * @since [*next-version*]
  */
-interface ParentAwareContainerInterface
+interface ParentAwareContainerInterface extends ContainerInterface
 {
     /**
      * Retrieve the container that is the parent of this container.
