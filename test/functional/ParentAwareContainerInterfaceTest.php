@@ -13,6 +13,8 @@ use Xpmock\TestCase;
 class ParentAwareContainerInterfaceTest extends TestCase
 {
     /**
+     * @since [*next-version*]
+     *
      * The name of the test subject.
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\Di\\ParentAwareContainerInterface';
