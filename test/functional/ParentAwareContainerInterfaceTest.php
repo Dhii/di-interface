@@ -8,12 +8,12 @@ use Xpmock\TestCase;
 /**
  * Tests {@see Dhii\Di\ParentAwareContainerInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class ParentAwareContainerInterfaceTest extends TestCase
 {
     /**
-     * @since [*next-version*]
+     * @since 0.1
      *
      * The name of the test subject.
      */
@@ -22,14 +22,14 @@ class ParentAwareContainerInterfaceTest extends TestCase
     /**
      * Name of the test subject's ancestor.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_ANCESTOR = 'Dhii\\Di\\ContainerInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ParentAwareContainerInterface
      */
@@ -47,7 +47,7 @@ class ParentAwareContainerInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

@@ -7,14 +7,14 @@ namespace Dhii\Di;
  *
  * This interface is often used to delegate lookup.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface ParentAwareContainerInterface extends ContainerInterface
 {
     /**
      * Retrieve the container that is the parent of this container.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ContainerInterface
      */

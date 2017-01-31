@@ -7,14 +7,14 @@ use Traversable;
 /**
  * Something that can have a container list retrieved from it.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface ContainersAwareInterface
 {
     /**
      * Return a list of containers that belong to this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return array|Traversable The list of containers belonging to this instance.
      */
