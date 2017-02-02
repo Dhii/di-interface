@@ -6,7 +6,7 @@ use Dhii\Di\FactoryInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\FactoryInterface}.
+ * Tests {@see \Dhii\Di\FactoryInterface}.
  *
  * @since 0.1
  */

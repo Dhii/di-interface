@@ -6,7 +6,7 @@ use Dhii\Di\ContainersAwareInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ContainersAwareInterface}.
+ * Tests {@see \Dhii\Di\ContainersAwareInterface}.
  *
  * @since 0.1
  */

@@ -5,7 +5,7 @@ namespace Dhii\Di\FuncTest;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\WritableContainerInterface}.
+ * Tests {@see \Dhii\Di\WritableContainerInterface}.
  *
  * @since 0.1
  */
@@ -23,7 +23,7 @@ class WritableContainerInterfaceTest extends TestCase
      *
      * @since 0.1
      *
-     * @return Dhii\Di\WritableContainerInterface
+     * @return \Dhii\Di\WritableContainerInterface
      */
     public function createInstance()
     {

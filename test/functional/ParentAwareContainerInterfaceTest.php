@@ -6,7 +6,7 @@ use Dhii\Di\ParentAwareContainerInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ParentAwareContainerInterface}.
+ * Tests {@see \Dhii\Di\ParentAwareContainerInterface}.
  *
  * @since 0.1
  */

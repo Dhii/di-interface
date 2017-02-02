@@ -6,7 +6,7 @@ use Dhii\Di\CompositeContainerInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\\CompositeContainerInterface}.
+ * Tests {@see \Dhii\Di\CompositeContainerInterface}.
  *
  * @since 0.1
  */

@@ -6,7 +6,7 @@ use Dhii\Di\ExceptionInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ExceptionInterface}.
+ * Tests {@see \Dhii\Di\ExceptionInterface}.
  *
  * @since 0.1
  */

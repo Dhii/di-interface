@@ -6,7 +6,7 @@ use Dhii\Di\ServiceProviderInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ServiceProviderInterface}.
+ * Tests {@see \Dhii\Di\ServiceProviderInterface}.
  *
  * @since 0.1
  */
