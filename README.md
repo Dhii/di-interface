@@ -13,7 +13,7 @@ In addition to existing [container-interop][] and
 - [`FactoryInterface`][] - enables standard [factory][] implementation.
 - [`ExceptionInterface`][] - any DI exception.
 
-The packages adheres to the SemVer specification, and there will be full backward compatibility between minor versions.
+The packages adheres to the [SemVer][] specification, and there will be full backward compatibility between minor versions.
 Additionally, it follows the rule of the [caret operator][], i.e. there will be full backward compatibility between patch pre-release versions.
 
 [container-interop]:                        https://github.com/container-interop/container-interop
