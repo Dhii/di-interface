@@ -6,9 +6,9 @@ use Dhii\Di\ContainersAwareInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ContainersAwareInterface}.
+ * Tests {@see \Dhii\Di\ContainersAwareInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class ContainersAwareInterfaceTest extends TestCase
 {
@@ -20,7 +20,7 @@ class ContainersAwareInterfaceTest extends TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ContainersAwareInterface
      */
@@ -36,7 +36,7 @@ class ContainersAwareInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

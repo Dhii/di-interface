@@ -6,9 +6,9 @@ use Dhii\Di\ServiceProviderInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ServiceProviderInterface}.
+ * Tests {@see \Dhii\Di\ServiceProviderInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class ServiceProviderInterfaceTest extends TestCase
 {
@@ -20,7 +20,7 @@ class ServiceProviderInterfaceTest extends TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ServiceProviderInterface
      */
@@ -36,7 +36,7 @@ class ServiceProviderInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

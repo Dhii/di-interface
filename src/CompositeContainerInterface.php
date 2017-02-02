@@ -8,7 +8,7 @@ namespace Dhii\Di;
  * A composite container is a container that can contain other containers,
  * and perform queries on them.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface CompositeContainerInterface extends
     ContainerInterface,

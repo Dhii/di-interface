@@ -6,9 +6,9 @@ use Dhii\Di\FactoryInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\FactoryInterface}.
+ * Tests {@see \Dhii\Di\FactoryInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class FactoryInterfaceTest extends TestCase
 {
@@ -20,7 +20,7 @@ class FactoryInterfaceTest extends TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return FactoryInterface
      */
@@ -36,7 +36,7 @@ class FactoryInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

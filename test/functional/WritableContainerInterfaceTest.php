@@ -5,25 +5,25 @@ namespace Dhii\Di\FuncTest;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\WritableContainerInterface}.
+ * Tests {@see \Dhii\Di\WritableContainerInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class WritableContainerInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\Di\\WritableContainerInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
-     * @return Dhii\Di\WritableContainerInterface
+     * @return \Dhii\Di\WritableContainerInterface
      */
     public function createInstance()
     {
@@ -40,7 +40,7 @@ class WritableContainerInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

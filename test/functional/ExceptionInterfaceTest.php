@@ -6,9 +6,9 @@ use Dhii\Di\ExceptionInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see Dhii\Di\ExceptionInterface}.
+ * Tests {@see \Dhii\Di\ExceptionInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class ExceptionInterfaceTest extends TestCase
 {
@@ -20,7 +20,7 @@ class ExceptionInterfaceTest extends TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ExceptionInterface
      */
@@ -35,7 +35,7 @@ class ExceptionInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

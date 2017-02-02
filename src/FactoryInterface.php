@@ -19,7 +19,6 @@ interface FactoryInterface
      *
      * @throws NotFoundException  If the given ID does not represent a known service.
      * @throws ContainerException If an error occurred while resolving the service definition.
-     *                            a known service.
      *
      * @return object|null The created service instance or null if the given ID does not represent
      */

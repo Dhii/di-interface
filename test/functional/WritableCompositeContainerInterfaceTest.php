@@ -2,43 +2,35 @@
 
 namespace Dhii\Di\FuncTest;
 
-use Dhii\Di\ParentAwareContainerInterface;
+use Dhii\Di\WritableCompositeContainerInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Di\ParentAwareContainerInterface}.
+ * Tests {@see \Dhii\Di\WritableCompositeContainerInterface}.
  *
  * @since 0.1
  */
-class ParentAwareContainerInterfaceTest extends TestCase
+class WritableCompositeContainerInterfaceTest extends TestCase
 {
     /**
-     * @since 0.1
-     *
      * The name of the test subject.
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Di\\ParentAwareContainerInterface';
-
-    /**
-     * Name of the test subject's ancestor.
-     *
-     * @since 0.1
-     */
-    const TEST_SUBJECT_ANCESTOR = 'Dhii\\Di\\ContainerInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Di\\WritableCompositeContainerInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since 0.1
      *
-     * @return ParentAwareContainerInterface
+     * @return WritableCompositeContainerInterface
      */
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-            ->getParentContainer()
             ->get()
             ->has()
+            ->getContainers()
+            ->add()
             ->new();
 
         return $mock;
@@ -54,6 +46,8 @@ class ParentAwareContainerInterfaceTest extends TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
-        $this->assertInstanceOf(static::TEST_SUBJECT_ANCESTOR, $subject);
+        $this->assertInstanceOf('Dhii\\Di\\ContainerInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Di\\ContainersAwareInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Di\\WritableCompositeContainerInterface', $subject);
     }
 }

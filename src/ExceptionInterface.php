@@ -5,7 +5,7 @@ namespace Dhii\Di;
 /**
  * Something that can represent a DI exception.
  * 
- * @since [*next-version*]
+ * @since 0.1
  */
 interface ExceptionInterface
 {
