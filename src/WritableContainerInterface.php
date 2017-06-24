@@ -29,7 +29,7 @@ interface WritableContainerInterface extends ContainerInterface
      *
      * @since 0.1
      *
-     * @param BaseServiceProviderInterface $serviceProvieder The provider to register.
+     * @param BaseServiceProviderInterface $serviceProvider The provider to register.
      */
-    public function register(BaseServiceProviderInterface $serviceProvieder);
+    public function register(BaseServiceProviderInterface $serviceProvider);
 }
