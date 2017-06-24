@@ -25,5 +25,8 @@
         "psr-4": {
             "Dhii\\Di\\": "src/"
         }
+    },
+    "suggest": {
+        "dhii/factory-interface": "To create new service instances."
     }
 }
