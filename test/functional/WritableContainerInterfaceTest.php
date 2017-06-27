@@ -48,6 +48,6 @@ class WritableContainerInterfaceTest extends TestCase
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
         $this->assertInstanceOf('Dhii\\Di\\ContainerInterface', $subject);
-        $this->assertInstanceOf('Interop\\Container\\ContainerInterface', $subject);
+        $this->assertInstanceOf('Psr\\Container\\ContainerInterface', $subject);
     }
 }

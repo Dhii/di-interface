@@ -2,7 +2,7 @@
 
 namespace Dhii\Di;
 
-use Interop\Container\ContainerInterface as BaseContainerInterface;
+use Psr\Container\ContainerInterface as BaseContainerInterface;
 
 /**
  * A composite container that can have child containers added.

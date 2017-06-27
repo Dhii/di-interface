@@ -2,7 +2,7 @@
 
 namespace Dhii\Di;
 
-use Interop\Container\ContainerInterface as BaseContainerInterface;
+use Psr\Container\ContainerInterface as BaseContainerInterface;
 
 /**
  * Something that can be a DI container.
