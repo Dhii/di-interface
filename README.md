@@ -10,7 +10,6 @@ In addition to existing [container-interop][] and
 - [`CompositeContainerInterface`][] - enables [lookup delegation][].
 - [`WritableCompositeContainerInterface`][] - a composite container that can have containers added.
 - [`WritableContainerInterface`][] - a container that can have service definitions added.
-- [`FactoryInterface`][] - enables standard [factory][] implementation.
 - [`ExceptionInterface`][] - any DI exception.
 
 The packages adheres to the [SemVer][] specification, and there will be full backward compatibility between minor versions.
@@ -21,9 +20,7 @@ Additionally, it follows the rule of the [caret operator][], i.e. there will be 
 [`CompositeContainerInterface`]:            https://github.com/Dhii/di-interface/blob/master/src/CompositeContainerInterface.php
 [`WritableCompositeContainerInterface`]:    https://github.com/Dhii/di-interface/blob/master/src/WritableCompositeContainerInterface.php
 [`WritableContainerInterface`]:             https://github.com/Dhii/di-interface/blob/master/src/WritableContainerInterface.php
-[`FactoryInterface`]:                       https://github.com/Dhii/di-interface/blob/master/src/FactoryInterface.php
 [`ExceptionInterface`]:                     https://github.com/Dhii/di-interface/blob/master/src/ExceptionInterface.php
 [lookup delegation]:                        https://github.com/container-interop/container-interop/blob/master/docs/Delegate-lookup.md
-[factory]:                                  https://github.com/container-interop/container-interop/issues/44
 [SemVer]:                                   http://semver.org/
 [caret operator]:                           https://getcomposer.org/doc/articles/versions.md#caret
